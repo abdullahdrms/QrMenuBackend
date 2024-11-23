@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_theme_colors_theme_colors",
+  "info": {
+    "displayName": "ThemeColors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primaryColor": {
+      "type": "string",
+      "default": "1e5cce",
+      "maxLength": 20
+    },
+    "secondaryColor": {
+      "type": "string",
+      "maxLength": 20,
+      "default": "FFF"
+    },
+    "settingColor": {
+      "type": "string",
+      "required": false,
+      "maxLength": 20,
+      "default": "f97316"
+    },
+    "productModalColor": {
+      "type": "string",
+      "default": "7BB4FE",
+      "maxLength": 20
+    }
+  }
+}
